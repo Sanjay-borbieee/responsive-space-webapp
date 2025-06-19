@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Venus - Space Travel</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/jupiter.css">
+</head>
+<body>
+
+    <div id="intro-overlay" class="intro-overlay">
+        <img src="assets/img/home-bg.svg" alt="image" class="home__bg1">
+        <div class="mars__container">
+
+            <div class="intro-content">
+                <h1 class="mars__title">Welcome to <span>Venus Exploration</span></h1>
+                <p>Embark on a journey to the hottest planet in the solar system.</p>
+            </div>
+            
+            <img src="assets/img/Venus.png" alt="Venus" class="intro-mars-img">
+        </div>
+    </div>
+    
+
+    <div id="main-content" class="main-content hidden">
+        <header class="header" id="header">
+            <nav class="nav conatiner">
+               <a href="#" class="nav__logo">
+                  <img src="assets/img/logo.svg" alt="image" class="planet__text"> Planet
+               </a>
+   
+               <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list">
+                     <li>
+                        <a href="#venus" class="nav__link">Home</a>
+                     </li>
+   
+                     <li>
+                        <a href="#mars-details" class="nav__link">Fact</a>
+                     </li>
+                     <li>
+                        <a href="#venus-missions" class="nav__link">Mission</a>
+                     </li>
+                     <li>
+                        <a href="#venus-quiz" class="nav__link"> Quiz</a>
+                     </li>
+                     <li>
+                        <a href="#mars-about" class="nav__link">Social Media</a>
+                     </li>
+                  </ul>
+   
+                  <!-- close bottum -->
+                  <div class="nav__close" id="nav-close">
+                     <i class="ri-close-line"></i> <!-- Use a close icon -->
+                 </div>
+                 
+   
+                  <img src="assets/img/nav-comet.svg" alt="image" class="nav">
+               </div>
+                  <!-- toggle -->
+                  <div class="nav__toggle" id="nav-toggle">
+                     <i class="ri-menu-4-line"></i>
+                  </div>
+            </nav>
+         </header>
+        
+        <main class="main">
+            <section id="venus" class="section mars section">
+                <img src="assets/img/venus-surface.png" alt="" class="mars__bg">
+                <div class="mars__container container grid">
+                    <div class="mars__data">
+                        <h1 class="mars__title">EXPLORE <span>VENUS</span></h1>
+                        <p>
+                            Venus, the second planet from the Sun, is known for its thick atmosphere and extreme temperatures. Explore its mysterious clouds, volcanic features, and intense pressure.
+                        </p>
+                        <a href="https://solarsystem.nasa.gov/gltf_embed/2375/" class="buttom1" type="submit">Explore In 3D</a>
+                    </div>
+                    <img src="assets/img/Venus.png" alt="Venus" class="mars__img">
+                </div>
+            </section>
+
+        <!-- ================= Fact ===================== -->
+
+        <section class="mars-details section" id="mars-details">
+            <div class="mars-details__container container grid">
+                <div class="mars-details__content">
+                    <h2 class="section__title">VENUS <span>FACTS</span></h2>
+                    <ul class="mars-details__list">
+                        <li><i class='bx bx-planet'></i> Second planet from the Sun</li>
+                        <li><i class='bx bx-ruler'></i> Diameter: 12,104 km</li>
+                        <li><i class='bx bx-time'></i> Day length: 243 Earth days</li>
+                        <li><i class='bx bx-calendar'></i> Year length: 225 Earth days</li>
+                        <li><i class='bx bx-wind'></i> Atmosphere: Mainly carbon dioxide, with clouds of sulfuric acid</li>
+                        <li><i class='bx bx-water'></i> Surface features: Volcanic plains and mountains; extremely high surface pressure.</li>
+                    </ul>
+                </div>  
+                <div class="mars-details__image">
+                    <img src="assets/img/venus-surface.png" alt="Venus Surface" class="venus-details__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- ####################### Travel #############################  -->
+
+        <section class="travel section" id="venus-missions">
+            <img src="assets/img/travel-lines.svg" alt="image" class="travel__lines">
+            
+            <div class="travel__container container">
+                <h2 class="section__title">
+                    VENUS <span>MISSION</span>
+                </h2>
+            
+                <div class="travel__swiper swiper">
+                    <div class="swiper-wrapper">
+        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Magellan</h3>
+                            <span class="travel__info">Mapped the surface of Venus using radar from 1989 to 1994.</span>
+                            <p class="travel__description">
+                                Magellan provided detailed maps of Venus, revealing its geological features and volcanic activity.
+                            </p>
+                        </article>
+                        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Venera 7</h3>
+                            <span class="travel__info">The first spacecraft to successfully land on Venus in 1970.</span>
+                            <p class="travel__description">
+                                Venera 7 transmitted data back to Earth from the harsh surface of Venus.
+                            </p>
+                        </article>
+                        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Pioneer Venus</h3>
+                            <span class="travel__info">Conducted a detailed study of Venus in the late 1970s and early 1980s.</span>
+                            <p class="travel__description">
+                                Pioneer Venus revealed much about Venus's atmosphere and surface conditions.
+                            </p>
+                        </article>
+                        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Venus Express</h3>
+                            <span class="travel__info">A European Space Agency mission that studied Venus from 2006 to 2014.</span>
+                            <p class="travel__description">
+                                Venus Express provided insights into the planet's atmosphere, climate, and surface processes.
+                            </p>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        
+        <!-- ==================== Quiz ============================== -->
+
+        <section class="travel section" id="venus-quiz">
+            <h2 class="section__title" id="quiz-sec">
+                Test Your Knowledge: <span>Venus Quiz</span>
+            </h2>
+        
+            <div class="quiz__container container">
+                <form id="quiz-form">
+                    <div class="quiz__question">
+                        <p>1. What is the second planet from the Sun?</p>
+                        <label><input type="radio" name="q1" value="Venus"> Venus</label>
+                        <label><input type="radio" name="q1" value="Earth"> Earth</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>2. What is the largest volcano on Venus?</p>
+                        <label><input type="radio" name="q2" value="Mauna Loa"> Mauna Loa</label>
+                        <label><input type="radio" name="q2" value="Maat Mons"> Maat Mons</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>3. What is the primary component of Venus' atmosphere?</p>
+                        <label><input type="radio" name="q3" value="Carbon Dioxide"> Carbon Dioxide</label>
+                        <label><input type="radio" name="q3" value="Nitrogen"> Nitrogen</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>4. What is the surface temperature of Venus?</p>
+                        <label><input type="radio" name="q4" value="900 degrees Fahrenheit"> 900 degrees Fahrenheit</label>
+                        <label><input type="radio" name="q4" value="250 degrees Fahrenheit"> 250 degrees Fahrenheit</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>5. Does Venus have any moons?</p>
+                        <label><input type="radio" name="q5" value="No, it has no moons"> No, it has no moons</label>
+                        <label><input type="radio" name="q5" value="Yes, one moon"> Yes, one moon</label>
+                    </div>
+                    <a class="buttom1" onclick="checkanswers()" type="button"> See Result</a>
+                </form>
+        
+                <div id="quiz-result"></div>
+            </div>
+        </section>
+        
+        <script>
+            // ======================= Answer ==============================
+            function checkanswers() {
+                const quizForm = document.getElementById('quiz-form');
+                const resultDiv = document.getElementById('quiz-result');
+        
+                const correctAnswers = {
+                    q1: 'Venus',
+                    q2: 'Maat Mons',
+                    q3: 'Carbon Dioxide',
+                    q4: '900 degrees Fahrenheit',
+                    q5: 'No, it has no moons'
+                };
+        
+                let score = 0;
+                let totalQuestions = Object.keys(correctAnswers).length;
+        
+                // Check answers
+                Object.keys(correctAnswers).forEach(question => {
+                    const userAnswer = quizForm[question]?.value; 
+                    if (userAnswer === correctAnswers[question]) {
+                        score++;
+                    }
+                });
+        
+                // Display result with color logic
+                resultDiv.innerHTML = `You scored <span id="score">${score}</span> out of ${totalQuestions}.`;
+                const scoreSpan = document.getElementById('score');
+        
+                // Apply color based on score
+                if (score > 3) {
+                    scoreSpan.style.color = 'green';   
+                } else {
+                    scoreSpan.style.color = 'red';     
+                }
+        
+                // Additional feedback
+                if (score === totalQuestions) {
+                    resultDiv.innerHTML += "<br>Perfect score! You're a quiz master!";
+                } else if (score === 0) {
+                    resultDiv.innerHTML += "<br>Don't worry, try again!";
+                } else {
+                    resultDiv.innerHTML += "<br>Good effort! Keep learning.";
+                }
+            }
+        </script>
+        
+        
+        <!-- ===================== About =========================== -->
+
+        </main>
+
+        <footer class="footer">
+      
+            <div class="footer__data" id="mars-about">
+                <h3 class="footer__title1">Social Media</h3>
+                <div class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">
+            © All Rights Reserved By Sky Rockerzz
+        </p>
+    </div>
+
+    
+</footer>
+    </div>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jupiter.js"></script>
+</body>
+</html>

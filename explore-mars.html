@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Mars - Space Travel</title>
+    <link rel="stylesheet" href="assets/css/mars.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/mars.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+</head>    
+<body>
+
+    <div id="intro-overlay" class="intro-overlay">
+        <img src="assets/img/home-bg.svg" alt="image" class="home__bg1">
+        <div class="mars__container">
+            <div class="intro-content">
+                <h1 class="mars__title">Welcome to <span>Mars Exploration</span></h1>
+                <p>Embark on a journey to the Red Planet</p>
+            </div>
+            <img src="assets/img/Mars-pic1.png" alt="Mars" class="intro-mars-img">
+        </div>
+    </div>
+    <header class="header" id="header">
+        <nav class="nav conatiner">
+           <a href="#" class="nav__logo">
+              <img src="assets/img/logo.svg" alt="image" class="planet__text"> Planet
+           </a>
+
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <li>
+                    <a href="#mars" class="nav__link active-link">Home</a>
+                 </li>
+
+                 <li>
+                    <a href="#mars-details" class="nav__link">Fact</a>
+                 </li>
+
+                 <li>
+                    <a href="#mars-missions" class="nav__link">Mission</a>
+                 </li>
+
+                 <li>
+                    <a href="#mars-quiz" class="nav__link">Quiz</a>
+                 </li>
+
+                 <li>
+                    <a href="#mars-about" class="nav__link">Social Media</a>
+                 </li>
+              </ul>
+
+              <!-- close bottum -->
+              <div class="nav__close" id="nav-close">
+                 <i class="ri-close-line"></i> 
+             </div>
+             
+
+              <img src="assets/img/nav-comet.svg" alt="image" class="nav">
+           </div>
+              <!-- toggle -->
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-4-line"></i>
+              </div>
+        </nav>
+     </header>
+
+    <main class="main">
+        <section id="mars" class="section mars section">
+            <img src="assets/img/mars-surface-mountains-on-mars-background-red-planet-free-photo.jpg" alt="" class="mars__bg">
+
+            <div class="mars__container container grid">
+                <div class="mars__data">
+                    <h1 class="mars__title">EXPLORE <span>MARS</span></h1>
+                    <p>Mars, the Red Planet, has captivated human imagination for centuries. Now, we invite you to embark on a journey to explore its mysteries, from its rusty landscapes to its potential for harboring life.</p>
+                    <a href="https://solarsystem.nasa.gov/gltf_embed/2364/" class="buttom1" type="submit">Explore In 3D </a>
+                </div>
+
+                <img src="assets/img/mars-pic1.png" alt="Mars" class="mars__img">
+            </div>
+        </section>
+
+        <section class="mars-details section" id="mars-details">
+            <div class="mars-details__container container grid">
+                <div class="mars-details__content">
+                    <h2 class="section__title">MARS <span>FACTS</span></h2>
+                    <ul class="mars-details__list">
+                        <li><i class='bx bx-planet'></i> Fourth planet from the Sun</li>
+                        <li><i class='bx bx-ruler'></i> Diameter: 6,779 km (0.53 x Earth)</li>
+                        <li><i class='bx bx-time'></i> Day length: 24 hours 37 minutes</li>
+                        <li><i class='bx bx-calendar'></i> Year length: 687 Earth days</li>
+                        <li><i class='bx bx-wind'></i> Thin atmosphere, mostly CO2</li>
+                        <li><i class='bx bx-water'></i> Evidence of ancient water activity</li>
+                    </ul>
+                </div>
+                <div class="mars-details__image">
+                    <img src="assets/img/why-is-mars-called-the-red-planet-151828846-16x9.avif" alt="Mars Surface" class="mars-details__img">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ####################### Mission #############################  -->
+
+
+        <section class="travel section" id="mars-missions">
+            <img src="assets/img/travel-lines.svg" alt="image" class="travel__lines">
+        
+            <div class="travel__container container">
+                <h2 class="section__title">
+                    MARS <span>MISSION</span>
+                </h2>
+        
+                <div class="travel__swiper swiper">
+                    <div class="swiper-wrapper">
+        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Curiosity Rover</h3>
+                            <span class="travel__info">Exploring Gale Crater since 2012, searching for signs of ancient microbial life.</span>
+                            <p class="travel__description">
+                                Curiosity is a car-sized Mars rover exploring Gale crater and Mount Sharp on Mars as part of NASA's Mars Science Laboratory mission.
+                            </p>
+                        </article>
+        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Perseverance Rover</h3>
+                            <span class="travel__info">Landed in 2021, collecting rock samples and testing oxygen production from the Martian atmosphere.</span>
+                            <p class="travel__description">
+                                Perseverance, nicknamed Percy, is a car-sized Mars rover designed to explore the Jezero crater on Mars as part of NASA's Mars 2020 mission.
+                            </p>
+                        </article>
+        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Ingenuity Helicopter</h3>
+                            <span class="travel__info">First powered, controlled flight on another planet, demonstrating future exploration possibilities.</span>
+                            <p class="travel__description">
+                                Ingenuity, nicknamed Ginny, is an autonomous NASA helicopter that operated on Mars from 2021 to 2024 as part of the Mars 2020 mission.
+                            </p>
+                        </article>
+        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Mars Sample Return</h3>
+                            <span class="travel__info">A future mission to bring samples back from Mars to Earth for detailed analysis.</span>
+                            <p class="travel__description">
+                                This mission aims to collect and return Martian soil and rock samples to Earth for in-depth study.
+                            </p>
+                        </article>
+        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- =================== Quiz ==================== -->
+
+        <section class="travel section" id="mars-quiz">
+            <h2 class="section__title">
+                Test Your Knowledge: <span>Mars Quiz</span>
+            </h2>
+        
+            <div class="quiz__container container">
+                <form id="quiz-form">
+                    <div class="quiz__question">
+                        <p>1. What is the largest volcano on Mars?</p>
+                        <label><input type="radio" name="q1" value="Olympus Mons"> Olympus Mons</label>
+                        <label><input type="radio" name="q1" value="Mount Everest"> Mount Everest</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>2. How many moons does Mars have?</p>
+                        <label><input type="radio" name="q2" value="2"> 2</label>
+                        <label><input type="radio" name="q2" value="1"> 1</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>3. What is the average temperature on Mars?</p>
+                        <label><input type="radio" name="q3" value="-80°F"> -80°F</label>
+                        <label><input type="radio" name="q3" value="32°F"> 32°F</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>4. What is Mars' nickname?</p>
+                        <label><input type="radio" name="q4" value="The Red Planet"> The Red Planet</label>
+                        <label><input type="radio" name="q4" value="The Blue Planet"> The Blue Planet</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>5. How long is a day on Mars?</p>
+                        <label><input type="radio" name="q5" value="24 hours and 37 minutes"> 24 hours and 37 minutes</label>
+                        <label><input type="radio" name="q5" value="12 hours"> 12 hours</label>
+                    </div>
+                    <button type="button" onclick="checkAnswers()" class="buttom1">Submit</button>
+                </form>
+                <div id="quiz-result"></div>
+            </div>
+        </section>
+        
+        
+        
+    </main>
+    <!-- ======================= Footer ================== -->
+    <footer class="footer">
+      
+                <div class="footer__data" id="mars-about">
+                    <h3 class="footer__title1">Social Media</h3>
+                    <div class="footer__social1">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">
+                © All Rights Reserved By Sky Rockerzz
+            </p>
+        </div>
+
+        
+    </footer>
+
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+</div>
+
+</body>
+</html>

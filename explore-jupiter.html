@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Jupiter - Space Travel</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/jupiter.css">
+</head>
+<body>
+
+    <div id="intro-overlay" class="intro-overlay">
+        <img src="assets/img/home-bg.svg" alt="image" class="home__bg1">
+        <div class="mars__container">
+
+            <div class="intro-content">
+                <h1 class="mars__title">Welcome to <span>Jupiter Exploration</span></h1>
+                <p>Embark on a journey to the largest planet in the solar system.</p>
+            </div>
+            
+            <img src="assets/img/Jupiter-pic-removebg-preview.png" alt="Jupiter" class="intro-mars-img">
+        </div>
+    </div>
+    
+
+    <div id="main-content" class="main-content hidden">
+        <header class="header" id="header">
+            <nav class="nav conatiner">
+               <a href="#" class="nav__logo">
+                  <img src="assets/img/logo.svg" alt="image" class="planet__text"> Planet
+               </a>
+    
+               <div class="nav__menu" id="nav-menu">
+                  <ul class="nav__list">
+                     <li>
+                        <a href="#venus" class="nav__link active-link">Home</a>
+                     </li>
+    
+                     <li>
+                        <a href="#mars-details" class="nav__link">Fact</a>
+                     </li>
+    
+                     <li>
+                        <a href="#venus-missions" class="nav__link">Mission</a>
+                     </li>
+    
+                     <li>
+                        <a href="#jupiter-quiz" class="nav__link">Quiz</a>
+                     </li>
+    
+                     <li>
+                        <a href="#mars-about" class="nav__link">Social Media</a>
+                     </li>
+                  </ul>
+    
+                  <!-- close bottum -->
+                  <div class="nav__close" id="nav-close">
+                     <i class="ri-close-line"></i> 
+                 </div>
+                 
+    
+                  <img src="assets/img/nav-comet.svg" alt="image" class="nav">
+               </div>
+                  <!-- toggle -->
+                  <div class="nav__toggle" id="nav-toggle">
+                     <i class="ri-menu-4-line"></i>
+                  </div>
+            </nav>
+         </header>
+        
+        <main class="main">
+            <section id="venus" class="section mars section">
+                <img src="assets/img/jupiter-surface.jpg" alt="" class="mars__bg">
+                <div class="mars__container container grid">
+                    <div class="mars__data">
+                        <h1 class="mars__title">EXPLORE <span>JUPITER</span></h1>
+                        <p>
+                            Jupiter, the largest planet in our solar system, is a gas giant known for its iconic Great Red Spot and powerful storms. Explore its stunning cloud bands, numerous moons, and mysterious atmosphere.
+                        </p>
+                        <a href="https://solarsystem.nasa.gov/gltf_embed/2375/" class="buttom1" type="submit">Explore In 3D</a>
+                    </div>
+                    <img src="assets/img/Jupiter-pic-removebg-preview.png" alt="Jupiter" class="mars__img">
+                </div>
+            </section>
+
+        <!-- ================= Fact ===================== -->
+
+  <section class="mars-details section" id="mars-details">
+    <div class="mars-details__container container grid">
+        <div class="mars-details__content">
+            <h2 class="section__title">JUPITER <span>FACTS</span></h2>
+            <ul class="mars-details__list">
+                <li><i class='bx bx-planet'></i> Largest planet in the solar system</li>
+                <li><i class='bx bx-ruler'></i> Diameter: 139,820 km</li>
+                <li><i class='bx bx-time'></i> Day length: 9.9 Earth hours</li>
+                <li><i class='bx bx-calendar'></i> Year length: 12 Earth years</li>
+                <li><i class='bx bx-wind'></i> Atmosphere: Hydrogen and helium, with traces of other gases</li>
+                <li><i class='bx bx-water'></i> Surface features: No solid surface; composed mostly of gas with storms like the Great Red Spot.</li>
+            </ul>
+        </div>  
+        <div class="mars-details__image">
+            <img src="assets/img/jupiter-surface.jpg" alt="Jupiter Surface" class="mercury-details__img">
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- ####################### Travel #############################  -->
+
+
+        <section class="travel section" id="venus-missions">
+            <img src="assets/img/travel-lines.svg" alt="image" class="travel__lines">
+            
+            <div class="travel__container container">
+                <h2 class="section__title">
+                    JUPITER <span>MISSION</span>
+                </h2>
+            
+                <div class="travel__swiper swiper">
+                    <div class="swiper-wrapper">
+        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Galileo</h3>
+                            <span class="travel__info">The first spacecraft to orbit Jupiter, studying the planet and its moons from 1995 to 2003.</span>
+                            <p class="travel__description">
+                                Galileo made numerous discoveries about Jupiter's atmosphere, magnetic field, and its large moons, such as Europa and Io.
+                            </p>
+                        </article>
+                        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Juno</h3>
+                            <span class="travel__info">Launched in 2011, Juno is providing detailed information on Jupiter's atmosphere and magnetic field.</span>
+                            <p class="travel__description">
+                                Juno's mission has revealed new insights about Jupiter's deep atmosphere, internal structure, and auroras.
+                            </p>
+                        </article>
+                        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Voyager 1 and 2</h3>
+                            <span class="travel__info">These twin spacecraft conducted flybys of Jupiter in 1979, providing the first detailed images of the planet and its moons.</span>
+                            <p class="travel__description">
+                                Voyager’s flybys led to the discovery of Jupiter's faint rings and volcanic activity on its moon Io.
+                            </p>
+                        </article>
+                        
+                        <article class="travel__card1 swiper-slide">
+                            <h3 class="travel__title">Pioneer 10</h3>
+                            <span class="travel__info">The first spacecraft to fly past Jupiter in 1973, opening up further exploration of the outer planets.</span>
+                            <p class="travel__description">
+                                Pioneer 10 provided the first close-up images of Jupiter and helped pave the way for future missions to the outer planets.
+                            </p>
+                        </article>
+                        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        
+        
+
+        <!-- ==================== Quiz ============================== -->
+
+        <section class="quiz section" id="jupiter-quiz">
+            <h2 class="section__title" id="quiz-sec">
+                Test Your Knowledge: <span>Jupiter Quiz</span>
+            </h2>
+        
+            <div class="quiz__container container">
+                <form id="quiz-form">
+                    <div class="quiz__question">
+                        <p>1. What is the largest planet in the solar system?</p>
+                        <label><input type="radio" name="q1" value="Saturn"> Saturn</label>
+                        <label><input type="radio" name="q1" value="Jupiter"> Jupiter</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>2. What is the main component of Jupiter's atmosphere?</p>
+                        <label><input type="radio" name="q2" value="Hydrogen"> Hydrogen</label>
+                        <label><input type="radio" name="q2" value="Oxygen"> Oxygen</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>3. How many Earth years does it take for Jupiter to orbit the Sun?</p>
+                        <label><input type="radio" name="q3" value="12 years"> 12 years</label>
+                        <label><input type="radio" name="q3" value="24 years"> 24 years</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>4. How many moons does Jupiter have?</p>
+                        <label><input type="radio" name="q4" value="79 moons"> 79 moons</label>
+                        <label><input type="radio" name="q4" value="50 moons"> 50 moons</label>
+                    </div>
+                    <div class="quiz__question">
+                        <p>5. What is the name of the famous storm on Jupiter?</p>
+                        <label><input type="radio" name="q5" value="Great Red Spot"> Great Red Spot</label>
+                        <label><input type="radio" name="q5" value="White Oval"> White Oval</label>
+                    </div>
+                    <button class="buttom1" type="button" onclick="checkAnswers()">Submit Quiz</button>
+                </form>
+        
+                <div id="quiz-result"></div>
+            </div>
+        
+            <script>
+                // ======================= Answer Checking Function ==============================
+                function checkAnswers() {
+                    const quizForm = document.getElementById('quiz-form');
+                    const resultDiv = document.getElementById('quiz-result');
+        
+                    // Correct answers for the Jupiter quiz
+                    const correctAnswers = {
+                        q1: 'Jupiter',
+                        q2: 'Hydrogen',
+                        q3: '12 years',
+                        q4: '79 moons',
+                        q5: 'Great Red Spot'
+                    };
+        
+                    let score = 0;
+                    const totalQuestions = Object.keys(correctAnswers).length;
+        
+                    // Check user's answers
+                    Object.keys(correctAnswers).forEach(question => {
+                        const userAnswer = quizForm[question]?.value;
+                        if (userAnswer === correctAnswers[question]) {
+                            score++;
+                        }
+                    });
+        
+                    // Display score result
+                    resultDiv.innerHTML = `You scored <span id="score">${score}</span> out of ${totalQuestions}.`;
+                    const scoreSpan = document.getElementById('score');
+        
+                    // Apply color to the score based on performance
+                    scoreSpan.style.color = score > 3 ? 'green' : 'red';  
+                    // Additional feedback messages
+                    if (score === totalQuestions) {
+                        resultDiv.innerHTML += "<br>Perfect score! You're a quiz master!";
+                    } else if (score === 0) {
+                        resultDiv.innerHTML += "<br>Don't worry, try again!";
+                    } else {
+                        resultDiv.innerHTML += "<br>Good effort! Keep learning.";
+                    }
+                }
+            </script>
+        </section>
+        
+        
+    </main>
+
+    <footer class="footer">
+      
+        <div class="footer__data" id="mars-about">
+            <h3 class="footer__title1">Social Media</h3>
+            <div class="footer__social1">
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer__copy">
+        © All Rights Reserved By Sky Rockerzz
+    </p>
+</div>
+
+
+</footer>
+    </div>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/jupiter.js"></script>
+</head>    
+</body>
+</html>
